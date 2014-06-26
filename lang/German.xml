@@ -1,0 +1,146 @@
+<?xml version="1.0" ?>
+<root> 
+<btStart>Starten</btStart>
+<lblTitle>Einschlagsrechner</lblTitle>
+<lblLanguage>Sprache:</lblLanguage>
+<lblTranslation>Übersetzung:</lblTranslation>
+<cmdHelp>Hilfe</cmdHelp>
+<inputs>Eingabewerte</inputs>
+<result>Ergebnis</result>
+
+<errPjDens>Bitte Dichte des Geschosses eingeben</errPjDens>
+<errTgDens>Bitte Dichte des Untergrunds eingeben</errTgDens>
+<errPjDiam>Bitte Durchmesser des Asteroiden eingeben</errPjDiam>
+<errPjAng>Bitte Winkel des Einschlags eingeben</errPjAng>
+<errPjVel>Bitte Geschwindigkeit des Geschosses eingeben</errPjVel>
+<errTitle>Zusätzliche Angaben erforderlich</errTitle>
+
+<lblAstDiam>Durchmesser des Asteroiden</lblAstDiam>
+<lblValue>Wert:</lblValue>
+<lblWater>Wasser</lblWater>
+<lblSedRock>Sedimentgestein</lblSedRock>
+<lblIgRock>Vulkanisches Gestein</lblIgRock>
+<lblIce>Eis</lblIce>
+<lblPorRock>Poröses Gestein</lblPorRock>
+<lblDensRock>Massives Gestein</lblDensRock>
+<lblIron>Eisen</lblIron>
+
+<txtWaterDepth>Wassertiefe (m):</txtWaterDepth>
+<btSubmit>Versuch starten</btSubmit>
+<lblObVelocity>Objektgeschwindigkeit</lblObVelocity>
+
+<lblSelect>Bitte auswählen...</lblSelect>
+<lblSphinx>Sphinx von Gizeh (20 m)</lblSphinx>
+<lblBen>Big Ben (96 m)</lblBen>
+<lblCathCol>Kölner Dom (157 m)</lblCathCol>
+<lblEiffel>Eiffelturm (324 m)</lblEiffel>
+<lblEmpireSt>Empire State Building (449 m)</lblEmpireSt>
+<lblCN>Canadian National Tower (553 m)</lblCN>
+<lblBurj>Turm von Dubai (ca. 800 m)</lblBurj>
+
+<lblImpactVal>Einschlagswerte</lblImpactVal>
+<lblClickMap>Aufschlagsort bitte auf der Karte anklicken...</lblClickMap>
+<cvsData>Die Daten in der Übersicht</cvsData>
+<cvsSize>Kratergröße</cvsSize>
+<cvsDepth>Kratertiefe</cvsDepth>
+<btBack>Zurück</btBack>
+<btReset>Zurücksetzen</btReset>
+<lbCrater>Krater ist zu klein und daher nicht sichtbar.</lbCrater>
+
+<htParameter>Parameter</htParameter>
+<htValue>Wert</htValue>
+
+<lblDistance>Entfernung vom Kraterort</lblDistance>
+<lblInVals>Über Ihre Projektil</lblInVals>
+<pnlResults>Ergebnis</pnlResults>
+<lblCrDepth>Kratertiefe</lblCrDepth>
+<lblLandmark>Wahrzeichen auswählen:</lblLandmark>
+<lblImpEnergy>Energie des Einschlags</lblImpEnergy>
+<lblWhatImpactor>Was geschieht mit dem Geschoss?</lblWhatImpactor>
+<lblFireball>Ist ein Feuerball sichtbar?</lblFireball>
+
+
+<lbKE>Bewegungsenergie</lbKE>
+<lbImE>Energie des Einschlags</lbImE>
+<lbImM>Masse</lbImM>
+<lbPjVel>Geschwindigkeit des Geschosses</lbPjVel>
+<lbPjAng>Winkel des Einschlags</lbPjAng>
+<lbTgDens>Dichte des Untergrunds</lbTgDens>
+<lbPjDens>Dichte des Geschosses</lbPjDens>
+<lbCrDiam>Kraterbreite</lbCrDiam>
+<lbCrDepth>Kratertiefe</lbCrDepth>
+<lbCrThickness>Dicke der Auswurfschicht</lbCrThickness>
+<lbAbBurst>Höhe, die der Kraterauswurf erreicht</lbAbBurst>
+<lbAbBreak>Höhe, in der das Geschoss auseinander bricht </lbAbBreak>
+<lbAbVel>Windgeschwindigkeit</lbAbVel>
+<lbAbRichter>Richterstärke</lbAbRichter>
+<lbAbAmpl>Stärke der Schallwelle</lbAbAmpl>
+<lbFbRad>Radius</lbFbRad>
+<lbFbDuration>Höchste Wärmestrahlung bei</lbFbDuration>
+<lbFbExp>Belastung</lbFbExp>
+<lbFbPeaktime>Dauer der Strahlung</lbFbPeaktime>
+<lbNoData>Trifft nicht zu</lbNoData>
+<lbFreq>Wahrscheinlichkeit: alle</lbFreq>
+
+<lbAcknow>Dank:</lbAcknow>
+<hide>ausblenden</hide>
+<lbAuthor>Die Autoren des neu gestalteten Einschlagsrechners sind:</lbAuthor>
+<lbBased>Die Autoren des Originalprogramms sind:</lbBased>
+<lbCreds>Die wissenschaftlichen Grundlagen für den Rechner kommen von der
+Arbeitsgruppe von Professor H. Jay Melosh an der Universität von
+Arizona.</lbCreds>
+
+<projectile1>Das Projektil landet unbeschädigt, mit einer Geschwindigkeit von</projectile1>
+<projectile2>Die in der Atmosphäre abgegebene Energie beträgt</projectile2>
+<projectile3>Das Geschoss bricht auseinander in einer Höhe von </projectile3>
+<projectile4>Die Geschwindigkeit der einzelnen Stücke des Geschosses nach dem Auseinanderbrechen beträgt</projectile4>
+<projectile5>Die Energie der Druckwelle beträgt</projectile5>
+<projectile6>Große Teile schlagen auf der Erdoberfläche ein und könnten ein Krater-Streufeld erzeugen. Um die Anzahl und Größe der Bruchstücke des Geschosses zu berechnen, und auch um die Größe und Anzahl der Krater des Streufeldes zu berechnen, ist eine genauere Analyse des Eintritts in die Atmosphäre erforderlich.</projectile6>
+<projectile7>Das Geschoss schlägt zersplittert ein. Das Geschoss trifft auf die Oberfläche mit einer Geschwindigkeit von </projectile7>
+
+<expos1>Kleidung fängt Feuer</expos1>
+<expos2>Menschen erleiden großflächige Verbrennungen 3. Grades</expos2>
+<expos3>Menschen erleiden großflächige Verbrennungen 2. Grades</expos3>
+<expos4>Menschen erleiden großflächige Verbrennungen 1. Grades </expos4>
+<expos5>Zeitung fängt Feuer</expos5>
+<expos6>Sperrholz fängt Feuer</expos6>
+<expos7>Laubbäume fangen Feuer</expos7>
+<expos8>Gras fängt Feuer</expos8>
+
+<opress1>Mehrstöckige, durch Wände getragene Gebäude stürzen zusammen</opress1>
+<opress2>Mehrstöckige, durch Wände getragene Gebäude bekommen starke Risse, Trennwände stürzen um</opress2>
+<opress3>Holzrahmengebäude stürzen nahezu komplett ein</opress3>
+<opress4>Trennwände von Holzrahmengebäuden stürzen um. Dach wird schwer beschädigt</opress4>
+<opress5>Die Stahlrahmenkonstruktion von mehrstöckigen Bürogebäuden verformt sich extrem und beginnt einzustürzen</opress5>
+<opress6>Kleine Brücken stürzen ein</opress6>
+<opress7>Brückenverstrebungen werden stark verbogen</opress7>
+<opress8>Stahlrahmenbrücken stürzen ein</opress8>
+<opress9>Fensterscheiben zerbersten</opress9>
+<opress10>Autos und Lastwagen werden mitgerissen, Totalschaden</opress10>
+<opress11>Autos und Lastwagen werden umgeworfen und mitgerissen. Aufwendige Reparaturen.</opress11> 
+<opress12>Keine besonderen Schäden durch die Druckwelle</opress12>
+<opress13>Bis zu 90 % der Bäume stürzen um; die übrigen Bäume verlieren ihre Äste und Blätter</opress13>
+<opress14>Ca. 30 % der Bäume stürzen um; die übrigen Bäume verlieren einige Äste und Blätter </opress14>
+
+<incrater>Sie stehen im Inneren des Kraters</incrater>
+
+<damage1>Welche Schäden entstehen </damage1>
+<damage2>von der Einschlagstelle entfernt?</damage2>
+
+<!--new additions-->
+<help_title>Eingabehilfe</help_title>
+<help_text>Angebot und wählen Sie einen Wert für jedes Eingabefeld und drücken Sie dann einreichen.</help_text>
+<help_text2>Um die eingegebenen Werte die Reset-Taste löschen.</help_text2>
+
+<input_error_title>Eingabefehler</input_error_title>
+<input_error_diam>Geben Projektil Durchmesser</input_error_diam>
+<input_error_angle>Geben Projektil Winkel</input_error_angle>
+<input_error_vel>Geben Geschoßgeschwindigkeit</input_error_vel>
+<input_error_pjd>Geben Projektil Dichte</input_error_pjd>
+<input_error_tgd>Geben Zieldichte</input_error_tgd>
+<input_error_water>Geben Wasserstand</input_error_water>
+
+<lbfbrad>Fireball Radius</lbfbrad>
+
+<brz_warn>Ihr Internet Browser unterstützt nicht die HTML5-Funktionen für Crater Auswirkungen erforderlich.</brz_warn>
+</root>

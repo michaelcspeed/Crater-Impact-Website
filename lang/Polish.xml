@@ -1,0 +1,138 @@
+<?xml version="1.0" ?>
+<root>
+<btStart>Start</btStart>
+<lblTitle>Kalkulator zderzenia</lblTitle>
+<lblLanguage>Język:</lblLanguage>
+
+<lblTranslation>Tłumaczenie:</lblTranslation>
+
+<cmdHelp>Pomoc</cmdHelp>
+<inputs>Dane wyjściowe</inputs>
+<result>Wyniki obliczeń</result>
+
+<lblAstDiam>Średnica asteroidy</lblAstDiam>
+<lblValue>Wartość:</lblValue>
+<lblWater>Woda</lblWater>
+<lblSedRock>Skały osadowe</lblSedRock>
+<lblIgRock>Skały magmowe</lblIgRock>
+<lblIce>Lód</lblIce>
+<lblPorRock>Skały porowate</lblPorRock>
+<lblDensRock>Skały masywne</lblDensRock>
+<lblIron>Żelazo</lblIron>
+
+<txtWaterDepth>Głębokość wody (m):</txtWaterDepth>
+<btSubmit>Wyślij</btSubmit>
+<lblObVelocity>Prędkość asteroidy</lblObVelocity>
+
+<lblSelect>Wybierz...</lblSelect>
+<lblSphinx>Sphinx, Giza (20m)</lblSphinx>
+<lblBen>Big Ben (96m)</lblBen>
+<lblEiffel>Wieża Eiffel (324m)</lblEiffel>
+<lblEmpireSt>Empire State Building (449m)</lblEmpireSt>
+<lblCN>CN Tower (553m)</lblCN>
+<lblBurj>Burj Dubai (~800m)</lblBurj>
+
+<lblImpactVal>Uderzenie</lblImpactVal>
+<lblClickMap>Kliknij na mapę aby określić położenie krateru...</lblClickMap>
+<cvsData>Dane</cvsData>
+<cvsSize>Wielkość krateru</cvsSize>
+<cvsDepth>Głębokość krateru</cvsDepth>
+<btBack>Wstecz</btBack>
+<btReset>Od nowa</btReset>
+<lbCrater>Krater jest za mały aby był widoczny</lbCrater>
+
+<htParameter>Parametr</htParameter>
+<htValue>Wartość</htValue>
+
+<lblDistance>Odległość obserwatora od miejsca upadku asteroidy:</lblDistance>
+<lblInVals>O Swojej Projectile</lblInVals>
+<pnlResults>Wyniki obliczeń</pnlResults>
+<lblCrDepth>Głębokość krateru</lblCrDepth>
+<lblLandmark>Wybierz krajobraz:</lblLandmark>
+<lblImpEnergy>Energia uderzenia</lblImpEnergy>
+<lblWhatImpactor>Co stanie się z asteroidą?</lblWhatImpactor>
+<lblFireball>Czy będzie widoczny bolid?</lblFireball>
+
+
+<lbKE>Energia kinetyczna</lbKE>
+<lbImE>Energia uderzenia</lbImE>
+<lbImM>Masa</lbImM>
+<lbPjVel>Prędkość asteroidy</lbPjVel>
+<lbPjAng>Trajektoria</lbPjAng>
+<lbTgDens>Powierzchnia Ziemi</lbTgDens>
+<lbPjDens>Materiał, z którego zbudowana jest asteroida</lbPjDens>
+<lbCrDiam>Szerokość krateru</lbCrDiam>
+<lbCrDepth>Głębokość krateru</lbCrDepth>
+<lbCrThickness>Wyrzut</lbCrThickness>
+<lbAbBurst>Wysokość wybuchu</lbAbBurst>
+<lbAbBreak>Wysokość rozpadu</lbAbBreak>
+<lbAbVel>Prędkość wiatru</lbAbVel>
+<lbAbRichter>Skala Richter'a</lbAbRichter>
+<lbAbAmpl>Wysokość dźwięku</lbAbAmpl>
+<lbFbRad>Promień</lbFbRad>
+<lbFbDuration>Maksymalny poziom promieniowania cieplnego</lbFbDuration>
+<lbFbExp>Ekspozycja</lbFbExp>
+<lbFbPeaktime>Czas napromieniowania</lbFbPeaktime>
+<lbNoData>Niewłaściwy</lbNoData>
+<lbFreq>Jak często?</lbFreq>
+
+<lbAcknow>Podziękowania</lbAcknow>
+<hide>Schowaj</hide>
+<lbAuthor>Autorzy:</lbAuthor>
+<lbBased>Na podstawie badań naukowych wykonanych przez:</lbBased>
+
+<projectile1>Pocisk nienaruszony, prędkość </projectile1>
+<projectile2>Energia utracona podczas lotu w atmosferze to </projectile2>
+<projectile3>Rozpad pocisku rozpoczął się na wysokości </projectile3>
+<projectile4>Prędkość fragmentów pocisku po wybuchu to </projectile4>
+<projectile5>Energia wybuchu w powietrzu to </projectile5>
+<projectile6>Duże fragmenty uderzają w powierzchnię i mogą spowodować powstanie pola kraterów. Wymagane jest ostrożniejsze określenie parametrów wejścia w atmosferę w celu dokładniejszego oszacowania rozkładu fragmentów oraz liczby i rozmiarów kraterów.</projectile6>
+<projectile7>Pocisk osiąga powierzchnię ziemi po rozpadzie. Pozostałości pocisku uderzają z prędkością </projectile7>
+
+<expos1>Odzież zaczyna się palić</expos1>
+<expos2>Większość powierzchni ciała ulega oparzeniom trzeciego stopnia</expos2>
+<expos3>Większość powierzchni ciała ulega oparzeniom drugiego stopnia</expos3>
+<expos4>Większość powierzchni ciała ulega oparzeniom pierwszego stopnia</expos4>
+<expos5>Zaczyna palić się papier</expos5>
+<expos6>Płonie sklejka</expos6>
+<expos7>Zaczynają palić się drzewa liściaste</expos7>
+<expos8>Zaczyna palić się trawa</expos8>
+
+<opress1>Zawala się budynek wielopoziomowy</opress1>
+<opress2>Budynek wielopoziomowy ma naruszoną konstrukcję, zawalają się ścianki działowe</opress2>
+<opress3>Budynek o konstrukcji drewnianej zawala się niemalże całkowicie</opress3>
+<opress4>Budynek o konstrukcji drewnianej zostanie poważnie zniszczony wewnątrz. Uszkodzony zostanie dach.</opress4>
+<opress5>Konstrukcja żel betonowego budynku biurowego zostanie bardzo poważnie zniszczona, zacznie się zawalać</opress5>
+<opress6>Zawali się mały most</opress6>
+<opress7>Konstrukcja mostu zostanie poważnie uszkodzona</opress7>
+<opress8>Zawali się most o żelaznej konstrukcji</opress8>
+<opress9>Wylecą szyby z okien</opress9>
+<opress10>Samochody i ciężarówki zostaną poprzewracane, a ich ponowne wykorzystanie będzie musiało zostać poprzedzone poważnymi naprawami</opress10>
+<opress11>Samochody i ciężarówki zostaną poprzewracane, a ich ponowne wykorzystanie będzie musiało zostać poprzedzone poważnymi naprawami</opress11>
+<opress12>Bez znacznych zniszczeń</opress12>
+<opress13>Ponad 90 procent drzew ulegnie zniszczeniu</opress13>
+<opress14>Ponad 30 procent drzew ulegnie zniszczeniu</opress14>
+
+<incrater>Znajdujesz się w środku krateru</incrater>
+
+<damage1>Zniszczenia</damage1>
+<damage2>od miejsca upadku</damage2>
+
+<!--new additions-->
+<help_title>Wejście Pomoc</help_title>
+<help_text>Podaż i wybierz wartość dla każdego pola wejściowego, a następnie naciśnij przedłożyć.</help_text>
+<help_text2>Aby usunąć wprowadzoną prasowej wartości resetu.</help_text2>
+
+<input_error_title>Błąd wejścia</input_error_title>
+<input_error_diam>Wpisz średnicę pocisku</input_error_diam>
+<input_error_angle>Wprowadź kąt pocisku</input_error_angle>
+<input_error_vel>Wprowadź prędkość pocisku</input_error_vel>
+<input_error_pjd>Wprowadzić gęstość pocisku</input_error_pjd>
+<input_error_tgd>Wprowadzić gęstość docelową</input_error_tgd>
+<input_error_water>Wprowadź POZIOM Wody</input_error_water>
+
+<lbfbrad>Radius Fireball</lbfbrad>
+
+<brz_warn>Twoja przeglądarka nie obsługuje funkcji HTML5 wymagane do Impact Crater.</brz_warn>
+</root>
+

@@ -1,0 +1,32 @@
+<languages>
+	<language>
+		<label>English</label>
+		<name>English</name>
+		<image>files/images/gb.png</image>
+	</language>
+	<language>
+		<label>Cymraeg</label>
+		<name>Welsh</name>
+		<image>files/images/wales.png</image>
+	</language>
+	<language>
+		<label>Deutsch</label>
+		<name>German</name>
+		<image>files/images/de.png</image>
+	</language>
+	<language>
+		<label>Español</label>
+		<name>Spanish</name>
+		<image>files/images/es.png</image>
+	</language>
+		<language>
+		<label>Français</label>
+		<name>French</name>
+		<image>files/images/fr.png</image>
+	</language>
+	<language>
+		<label>Polski</label>
+		<name>Polish</name>
+		<image>files/images/pl.png</image>
+	</language>
+</languages>

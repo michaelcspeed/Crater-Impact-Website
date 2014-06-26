@@ -1,0 +1,139 @@
+<?xml version="1.0" ?>
+<root>
+<btStart>Dechrau</btStart>
+<lblTitle>Cyfrifiannell Gwrthdrawiad</lblTitle>
+<lblLanguage>Iaith:</lblLanguage>
+
+<lblTranslation>Cyfieithiadau:</lblTranslation>
+
+<cmdHelp>Cymorth </cmdHelp>
+<inputs>Nodwch y paramedrau</inputs>
+<result>Canlyniadau cyfrifiad</result>
+
+<lblAstDiam>Diamedr yr taflegryn</lblAstDiam>
+<lblValue>Gwerth:</lblValue>
+<lblWater>Dŵr</lblWater>
+<lblSedRock>Craig waddodol</lblSedRock>
+<lblIgRock>Craig igneaidd</lblIgRock>
+<lblIce>Iâ</lblIce>
+<lblPorRock>Craig fandyllog</lblPorRock>
+<lblDensRock>Craig drwchus</lblDensRock>
+<lblIron>Haearn</lblIron>
+
+<txtWaterDepth>Dyfnder y dŵr (m) :</txtWaterDepth>
+<btSubmit>Cyflwyno</btSubmit>
+<lblObVelocity>Cyflymder y gwrthrych</lblObVelocity>
+
+<lblSelect>Dewiswch...</lblSelect>
+<lblSphinx>Sffincs Giza (20m)</lblSphinx>
+<lblBen>Big Ben (96m)</lblBen>
+<lblEiffel>Tŵr Eiffel (324m)</lblEiffel>
+<lblEmpireSt>Adeilad yr Empire State (449m)</lblEmpireSt>
+<lblCN>Tŵr CN (553m)</lblCN>
+<lblBurj>Burj Dubai (~800m)</lblBurj>
+
+<lblImpactVal>Gwerthoedd gwrthdaro</lblImpactVal>
+<lblClickMap>Cliciwch y map i nodi’r crater...</lblClickMap>
+<cvsData>Gweld data</cvsData>
+<cvsSize>Maint y crater</cvsSize>
+<cvsDepth>Dyfnder y Crater</cvsDepth>
+<btBack>Yn ôl</btBack>
+<btReset>Ailosod</btReset>
+<lbCrater>Mae’r crater rhy fach i’w weld</lbCrater>
+
+<htParameter>Paramedr</htParameter>
+<htValue>Gwerth</htValue>
+
+<lblDistance>Pellter o safle’r gwrthdrawiad</lblDistance>
+<lblInVals>Am Eich Projectile</lblInVals>
+<pnlResults>Canlyniadau’r cyfrif</pnlResults>
+<lblCrDepth>Dyfnder y crater</lblCrDepth>
+<lblLandmark>Dewiswch dirnod:</lblLandmark>
+<lblImpEnergy>Egni’r gwrthdrawiad</lblImpEnergy>
+<lblWhatImpactor>Beth sy’n digwydd i’r gwrthrych sy’n taro?</lblWhatImpactor>
+<lblFireball>A oes pelen dân?</lblFireball>
+
+
+<lbKE>Egni cinetig</lbKE>
+<lbImE>Egni’r gwrthdrawiad</lbImE>
+<lbImM>Màs</lbImM>
+<lbPjVel>Cyflymder y taflegryn</lbPjVel>
+<lbPjAng>Ongl y taflegryn</lbPjAng>
+<lbTgDens>Dwysedd y targed</lbTgDens>
+<lbPjDens>Dwysedd y taflegryn</lbPjDens>
+<lbCrDiam>Lled y crater</lbCrDiam>
+<lbCrDepth>Dyfnder y crater</lbCrDepth>
+<lbCrThickness>Trwch y deunydd a ddaw allan</lbCrThickness>
+<lbAbBurst>Uchder y rhwyg</lbAbBurst>
+<lbAbBreak>Uchder y ffrwydrad</lbAbBreak>
+<lbAbVel>Cyflymder y gwynt</lbAbVel>
+<lbAbRichter>Maint Richter</lbAbRichter>
+<lbAbAmpl>Osgled pwls sain</lbAbAmpl>
+<lbFbRad>Radiws</lbFbRad>
+<lbFbDuration>Pelydriad thermal ar ei uchaf</lbFbDuration>
+<lbFbExp>Datguddiad</lbFbExp>
+<lbFbPeaktime>Hyd yr arbelydriad</lbFbPeaktime>
+<lbNoData>Amherthnasol</lbNoData>
+<lbFreq>Pa mor aml?</lbFreq>
+
+<lbAcknow>Diolchiadau</lbAcknow>
+<hide>Cuddio</hide>
+<lbAuthor>Enw’r awdur:</lbAuthor>
+<lbBased>Wedi’i seilio ar god gwreiddiol gan:</lbBased>
+
+<projectile1>Mae’r taflegryn yn glanio mewn un darn, ar gyflymder o </projectile1>
+<projectile2>Egni yn cael ei golli yn yr atmosffer: </projectile2>
+<projectile3>Mae’r taflegryn yn dechrau chwalu ar uchder o </projectile3>
+<projectile4>Cyflymder darnau o’r taflegryn ar ôl y ffrwydrad yw </projectile4>
+<projectile5>Egni’r ffrwydrad awyr yw </projectile5>
+<projectile6>Mae darnau mawr yn taro’r wyneb, gan greu craterau yma a thraw. Mae angen ystyried sut y daw i’r atmosffer yn fwy gofalus er mwyn amcangyfrif dosbarthiad a maint y darnau meteoritau a rhagweld nifer a maint y craterau a ffurfir.</projectile6>
+<projectile7>Mae’r taflegryn wedi torri wrth gyrraedd y llawr.  Mae’r taflegryn yn taro’r wyneb ar gyflymder o </projectile7>
+
+<expos1>Dillad yn mynd ar dân</expos1>
+<expos2>Rhan helaeth o’r corff wedi dioddef llosgiadau gradd 3</expos2>
+<expos3>Rhan helaeth o’r corff wedi dioddef llosgiadau gradd 2</expos3>
+<expos4>Rhan helaeth o’r corff wedi dioddef llosgiadau gradd 1</expos4>
+<expos5>Papur newydd yn cynnau</expos5>
+<expos6>Pren haenog ar dân</expos6>
+<expos7>Coed collddail yn cynnau</expos7>
+<expos8>Glaswellt yn cynnau </expos8>
+
+<opress1>Bydd adeiladau aml-lawr yn cwympo</opress1>
+<opress2>Bydd adeiladau aml-lawr yn hollti’n ddifrifol a’r parwydydd yn chwythu i’r llawr</opress2>
+<opress3>Bydd adeiladau pren yn cwympo bron yn gyfan gwbl</opress3>
+<opress4>Bydd parwydydd adeiladau pren yn chwythu i’r llawr. Bydd toeau’n cael eu difrodi’n sylweddol</opress4>
+<opress5>Bydd fframiau dur mewn adeiladau aml-lawr fel swyddfeydd, yn plygu’n sylweddol ac yn dechrau cwympo.</opress5>
+<opress6>Bydd pontydd bach yn cwympo.</opress6>
+<opress7>Bydd craffrwymau pontydd yn plygu’n sylweddol</opress7>
+<opress8>Bydd pontydd ffrâm ddur yn cwympo</opress8>
+<opress9>Bydd ffenestri gwydr yn torri’n deilchion</opress9>
+<opress10>Bydd ceir a lorïau wedi’u symud o’u lle a’u hanffurfio, a bydd angen eu trwsio cyn eu defnyddio eto</opress10>
+<opress11>Bydd ceir a lorïau wedi troi wyneb i waered, a bydd angen eu trwsio’n sylweddol</opress11>
+<opress12>Dim difrod sylweddol yn sgil y ffrwydrad atmosfferaidd</opress12>
+<opress13>Hyd at 90% o goed wedi cwympo i’r llawr; y gweddill heb ganghennau na dail</opress13>
+<opress14>Tua 30% o goed wedi cwympo i’r llawr; y gweddill heb ganghennau na dail</opress14>
+
+<incrater>Rydych chi’n sefyll y tu mewn i’r crater</incrater>
+
+<damage1>Difrod </damage1>
+<damage2> o safle’r gwrthdrawiad</damage2>
+
+<!--New additions-->
+<help_title>Help Mewnbwn</help_title>
+<help_text>Cyflenwi a dewis gwerth ar gyfer pob maes mewnbwn yna pwyswch cyflwyno.</help_text>
+<help_text2>I glirio'r gwerthoedd, pwyswch ailosod.</help_text2>
+
+<input_error_title>Gwall Mewnbwn</input_error_title>
+<input_error_diam>Rhowch diamedr projectile</input_error_diam>
+<input_error_angle>Rhowch ongl projectile</input_error_angle>
+<input_error_vel>Rhowch cyflymder projectile</input_error_vel>
+<input_error_pjd>Rhowch dwysedd projectile</input_error_pjd>
+<input_error_tgd>Rhowch dwysedd targed</input_error_tgd>
+<input_error_water>Nodwch lefel y dŵr</input_error_water>
+
+<lbfbrad>Radiws Fireball</lbfbrad>
+
+<brz_warn>Nid yw eich porwr rhyngrwyd yn cefnogi nodweddion HTML5 sy'n ofynnol ar gyfer Crater Effaith. Betrachten installing one of the following bowsers.</brz_warn>
+</root>
+
+

@@ -1,0 +1,143 @@
+<?xml version="1.0" ?>
+<root> 
+<btStart>Start</btStart>
+<lblTitle>Impact Calculator</lblTitle>
+<lblLanguage>Language:</lblLanguage>
+
+<lblTranslation>Translation:</lblTranslation>
+
+<cmdHelp>Help</cmdHelp>
+<inputs>Input Parameters</inputs>
+<result>Calculation Results</result>
+
+<lblAstDiam>Projectile Diameter</lblAstDiam>
+<lblValue>Value:</lblValue>
+<lblWater>Water</lblWater>
+<lblSedRock>Sedimentary Rock</lblSedRock>
+<lblIgRock>Igneous Rock</lblIgRock>
+<lblIce>Ice</lblIce>
+<lblPorRock>Porous Rock</lblPorRock>
+<lblDensRock>Dense Rock</lblDensRock>
+<lblIron>Iron</lblIron>
+
+<txtWaterDepth>Water Depth (m) :</txtWaterDepth>
+<btSubmit>Submit</btSubmit>
+<lblObVelocity>Object Velocity</lblObVelocity>
+
+<lblSelect>Please Select...</lblSelect>
+<lblSphinx>Sphinx of Giza (20m)</lblSphinx>
+<lblBen>Big Ben (96m)</lblBen>
+<lblEiffel>Eiffel Tower (324m)</lblEiffel>
+<lblEmpireSt>Empire State Building (449m)</lblEmpireSt>
+<lblCN>CN Tower (553m)</lblCN>
+<lblBurj>Burj Dubai (~800m)</lblBurj>
+
+<lblImpactVal>Impact Values</lblImpactVal>
+<lblClickMap>Click the map to place the crater...</lblClickMap>
+<cvsData>Data View</cvsData>
+<cvsSize>Crater Size</cvsSize>
+<cvsDepth>Crater Depth</cvsDepth>
+<btBack>Go Back</btBack>
+<btReset>Reset</btReset>
+<lbCrater>Crater is too small to be seen</lbCrater>
+
+<htParameter>Parameter</htParameter>
+<htValue>Value</htValue>
+
+<lblDistance>Distance from crash site</lblDistance>
+<lblInVals>About Your Projectile</lblInVals>
+<pnlResults>Calculation Results</pnlResults>
+<lblCrDepth>Crater Depth</lblCrDepth>
+<lblLandmark>Select Landmark:</lblLandmark>
+<lblImpEnergy>Impact Energy</lblImpEnergy>
+<lblWhatImpactor>What happens to the impactor?</lblWhatImpactor>
+<lblFireball>Is a fireball seen?</lblFireball>
+
+
+<lbKE>Kinetic Energy</lbKE>
+<lbImE>Impact Energy</lbImE>
+<lbImM>Mass</lbImM>
+<lbPjVel>Projectile Velocity</lbPjVel>
+<lbPjAng>Trajectory Angle</lbPjAng>
+<lbTgDens>Target Density</lbTgDens>
+<lbPjDens>Projectile Density</lbPjDens>
+<lbCrDiam>Crater Width</lbCrDiam>
+<lbCrDepth>Crater Depth</lbCrDepth>
+<lbCrThickness>Ejecta Thickness</lbCrThickness>
+<lbAbBurst>Burst Altitude</lbAbBurst>
+<lbAbBreak>Break-up Altitude</lbAbBreak>
+<lbAbVel>Wind Velocity</lbAbVel>
+<lbAbRichter>Richter Magnitude</lbAbRichter>
+<lbAbAmpl>Sound pulse amplitude</lbAbAmpl>
+<lbFbRad>Radius</lbFbRad>
+<lbFbDuration>Peak thermal radiation at</lbFbDuration>
+<lbFbExp>Exposure</lbFbExp>
+<lbFbPeaktime>Irradiation duration</lbFbPeaktime>
+<lbNoData>Not applicable</lbNoData>
+<lbFreq>How frequent?</lbFreq>
+
+<lbAcknow>Acknowledgments</lbAcknow>
+<hide>Hide</hide>
+<lbAuthor>Authors:</lbAuthor>
+<lbBased>Based on original science of:</lbBased>
+
+<projectile1>The projectile lands intact, with a velocity</projectile1>
+<projectile2>The energy lost in the atmosphere is </projectile2>
+<projectile3>The projectile begins to breakup at an altitude of </projectile3>
+<projectile4>The velocity of the projectile fragments after the burst is </projectile4>
+<projectile5>The energy of the airburst is </projectile5>
+<projectile6>Large fragments strike the surface and may create a crater strewn field.  A more careful treatment of atmospheric entry is required to accurately estimate the size-frequency distribution of meteoroid fragments and predict the number and size of craters formed.</projectile6>
+<projectile7>The projectile reaches the ground in a broken condition.  The mass of the projectile strikes the surface at  a velocity of </projectile7>
+
+<expos1>Clothing ignites</expos1>
+<expos2>Much of the body suffers third degree burns</expos2>
+<expos3>Much of the body suffers second degree burns</expos3>
+<expos4>Much of the body suffers first degree burns</expos4>
+<expos5>Newspaper ignites</expos5>
+<expos6>Plywood flames</expos6>
+<expos7>Deciduous trees ignite</expos7>
+<expos8>Grass ignites</expos8>
+
+<opress1>Multistory wall-bearing buildings will collapse</opress1>
+<opress2>Multistory wall-bearing buildings will experience severe cracking and interior partitions will be blown down</opress2>
+<opress3>Wood frame buildings will almost completely collapse</opress3>
+<opress4>Interior partitions of wood frame buildings will be blown down.  Roof will be severely damaged</opress4>
+<opress5>Multistory steel-framed office-type buildings will suffer extreme frame distortion, incipient collapse</opress5>
+<opress6>Small bridges will collapse</opress6>
+<opress7>Bridges will suffer substantial distortion of bracing</opress7>
+<opress8>Steel frame bridges will collapse</opress8>
+<opress9>Glass windows will shatter</opress9>
+<opress10>Cars and trucks will be largely displaced and grossly distorted and will require rebuilding before use</opress10>
+<opress11>Cars and trucks will be overturned and displaced, requiring major repairs</opress11>
+<opress12>No significant damage from atmospheric blast wave</opress12>
+<opress13>Up to 90 percent of trees blown down; remainder stripped of branches and leaves</opress13>
+<opress14>About 30 percent of trees blown down; remainder have some branches and leaves blown off</opress14>
+
+<incrater>You are standing inside the crater</incrater>
+
+<showCrater>Show Crater</showCrater>
+<hideCrater>Hide Crater</hideCrater>
+<damage1>Damage at </damage1>
+<damage2>from crash site</damage2>
+
+<!--new additions-->
+<help_title>Input Help</help_title>
+<help_text>Supply and select a value for each input field then press submit.</help_text>
+<help_text2>To clear the entered values press reset.</help_text2>
+
+<input_error_title>Input Error</input_error_title>
+<input_error_diam>Enter projectile diameter</input_error_diam>
+<input_error_angle>Enter projectile angle</input_error_angle>
+<input_error_vel>Enter projectile velocity</input_error_vel>
+<input_error_pjd>Enter projectile density</input_error_pjd>
+<input_error_tgd>Enter target density</input_error_tgd>
+<input_error_water>Enter water level</input_error_water>
+
+<lbfbrad>Fireball Radius</lbfbrad>
+
+<brz_warn>Your  internet browser does not support the HTML5 features required for Crater Impact. Consider installing one of the following bowsers.</brz_warn>
+
+
+</root>
+
+

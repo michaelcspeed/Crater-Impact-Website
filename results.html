@@ -1,0 +1,241 @@
+
+<!DOCTYPE HTML> 
+<html> 
+<head> 
+<title>Crater Impact</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <link rel="stylesheet" href="css/ui-lightness/jquery-ui-1.10.2.custom.css" />
+  <script src="js/jquery-1.9.1.js"></script>
+  <script src="js/jquery-ui-1.10.2.custom.js"></script>
+  <script src="js/HashMap.js"></script>
+  <script src="js/ImpactModel.js"></script>
+  <script src="js/DataProvider.js"></script>
+  <script src="js/CraterCalcs.js"></script>
+  <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script> 
+  <script src="js/results.js"></script> 
+ 
+</head> 
+<!-- Taken out onLoad because initialize method runs when map is initialized anyway (map's DomListener) -->
+<body> 
+
+
+ 
+	<div  id="container">
+
+		<div id="header">
+			 <div id="AppTitle" >Down 2 Earth - Crater Impact  - TEST AREA</div>
+	  		 <div id="ACK" onClick=" displayACK();">Acknowledgements</div>
+			<div class="spacer"></div>		
+		</div><!--end header-->
+		
+		<div id="content">
+		
+			<div id="Content_Wrapper">
+			
+				<div id="ImpactCalc_Output_Map">	
+					
+					<div  id="Crater_Size_Title" class="screen_title">Calculation Results - Crater Size</div>
+					
+				
+					<div id ="Results_Table_Area">
+						<h4 id="InputValues_Title">Input Values:</h4>
+						<div class="datagrid">
+							<table>
+								<thead><tr><th id="Thead_param">header</th><th id="Thead_value">header</th></tr></thead>
+								<tbody id="ImpactValuesTable">
+									<tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+									<tr class="alt"><td>&nbsp;</td><td>&nbsp;</td></tr>
+									<tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+									<tr class="alt"><td>&nbsp;</td><td>&nbsp;</td></tr>
+									<tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+									<tr class="alt"><td>&nbsp;</td><td>&nbsp;</td></tr>
+									<tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+									<tr class="alt"><td>&nbsp;</td><td>&nbsp;</td></tr>
+									<tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+								</tbody>
+							</table>
+						</div><!--DataGrid-->
+						
+						<h4 id="SelectLM_Title">Please Select:</h4>
+						 <select id = "cpLocarion" class="input_combo" onChange="selectLocation(this)">
+							   <option id="cpp_0" value = "0">Please Select...</option>
+							   <option id="cpp_1" value = "1">Cardiff</option>
+							   <option id="cpp_2" value = "2">London</option>
+							   <option id="cpp_3" value = "3">Paris</option>
+							   <option id="cpp_4" value = "4">New York</option>
+							   <option id="cpp_5" value = "5">Barringer Meteor Crater, Arizona</option>
+							   <option id="cpp_6" value = "7">Aorounga, Chad, Africa</option>
+							   <option id="cpp_7" value = "8">Wolfe Creek, Australia</option>
+							   <option id="cpp_8" value = "9">Roter Kamm, Namibia</option>
+							   <option id="cpp_9" value = "10">Mistastin Lake, Canada</option>
+							   <option id="cpp_10" value = "11">Bosumtwi, Ghana</option>
+							   <option id="cpp_11" value = "12">Karakul, Tajikstan</option>
+						</select>
+						
+						<h4 id="MapInst">Click the map to place the crater...</h4>
+
+					</div><!--End Resilts Table area-->
+						
+					<div id="map_canvas"></div>
+
+				</div><!--end impactCalc map-->
+				
+				
+				<div id="ImpactCalc_Crater_Depth">	
+					
+					<div id="Crater_Depth_Title" class="screen_title">Calculation Results - Crater Depth</div>
+					
+					<canvas id ="Crater_Area" height="400" width="782"></canvas>
+					
+					<p id="LB_SelectLandmark" class="left_output_text">Select Landmark</p>
+					
+					<select id = "cpLadmark" class="output_combo" onChange="drawCrater(this)">
+					   <option id="cpl_0" value = "0">Please Select...</option>
+					   <option id="cpl_1" value = "1">Spinx of Giza (20m)</option>
+					   <option id="cpl_2" value = "2">Big Ben (96m)</option>
+					   <option id="cpl_3" value = "3">Eiffel Tower (324m)</option>
+					   <option id="cpl_4" value = "4">Empire State Building (449m)</option> 
+					   <option id="cpl_5" value = "5">CN Tower(553m)</option> 
+					   <option id="cpl_6" value = "6">Burg Dubai (~800m)</option> 
+					 </select>
+			 
+				</div><!--end impactCalc crater depth-->
+				
+				
+				<div id="ImpactCalc_Data_View">	
+					
+					<div id="Data_View_Title" class="screen_title">Calculation Results - Data View</div>
+					
+				
+					<div id ="DataTables_L">
+					
+						<h6 id="LB_InpactValues">Input Values</h6>
+						<div   class="datagrid">
+							<table>
+								<thead><tr><th id="Thead_param1">header</th><th id="Thead_value1">header</th></tr></thead>
+								<tbody id="InputValuesTable">
+									<tr><td>data</td><td>data</td></tr>
+									<tr class="alt"><td>data</td><td>data</td></tr>
+									<tr><td>data</td><td>data</td></tr>
+									<tr class="alt"><td>data</td><td>data</td></tr>
+									<tr><td>data</td><td>data</td></tr>
+									<tr class="alt"><td>data</td><td>data</td></tr>		
+								</tbody>
+							</table>
+						</div><!--DataGrid-->
+					
+						
+						<h6 id="LB_Damage">Damage At</h6>
+						<div id="DamageInfo" class="text_output">Test 124</div>
+						
+					</div><!--End Data Tables L-->
+					
+					<div id ="DataTables_R">
+					
+						<h6 id="LB_InputEnergy">Input Energy</h6>
+						<div   class="datagrid">
+							<table>
+								<thead><tr><th id="Thead_param3">header</th><th id="Thead_value3">header</th></tr></thead>
+								<tbody id="InputEnergyTable">
+									<tr><td>data</td><td>data</td></tr>
+									<tr class="alt"><td>data</td><td>data</td></tr>
+									<tr><td>data</td><td>data</td></tr>	
+								</tbody>
+							</table>
+						</div><!--DataGrid-->
+						<h6 id="LB_Impactor">What happens to the impactor?</h6>
+						<div id="ImpactorInfo" class="text_output">Test 124</div>
+						
+			
+						<h6 id="LB_Fireball">Is a fireball Seen?</h6>
+						<div  class="datagrid">
+							<table>
+								<thead><tr><th id="Thead_param4">header</th><th id="Thead_value4">header</th></tr></thead>
+								<tbody id="FireballTable">
+									<tr><td>data</td><td>data</td></tr>
+									<tr class="alt"><td>data</td><td>data</td></tr>
+									<tr><td>data</td><td>data</td></tr>
+									<tr class="alt"><td>data</td><td>data</td></tr>
+									
+								</tbody>
+							</table>
+						</div><!--DataGrid-->
+					</div><!--End Data Tables-->
+					 
+				</div><!--end impactCalc data view-->
+				
+				
+				<div ID="Output_Footer">
+							<button id="BT_Back" class="left_footer_button" onClick="goBack()">Go Back</button>
+							<button id="BT_Data" class="right_footer_button" onClick="resultTap(3)">Data View</button>
+							<button id="BT_CraterDepth" class="right_footer_button" onClick="resultTap(2)">Crater Depth</button>
+							<button id="BT_CraterPlace" class="right_footer_button" onClick="resultTap(1)">Crater Size</button>
+				</div><!--end output button footer-->
+			</div><!--content wrapper-->
+		</div><!--end content-->
+		
+		<div id="footer">
+			<p>&copy; 2013 - University of South Wales - Developed by Dr Andrew Scott</p>
+		</div><!--end footer-->
+		
+	</div><!--end containter-->
+	
+	<div id="dialog-modal_ack" title="Acknowledgements">
+	<div id="ACK_Imgs">
+		<img id="ACK_Left_Img" src="imgs/esa.png" alt="esa logo and stfc logo">
+		<img id="ACK_Right_Img" src="imgs/faulkes.png" alt="Faulkes Telescopes Logo">
+	</div>
+	
+	<div id="ACK_DIV">
+
+		<div class="ack_sect">
+		<div class="ack_sect">
+		<h4>Faulkes Telescope Project (University of South Wales)</h4>
+		<ul>
+		<li>Paul Roche</li>
+		<li>Sarah Robers</li>
+		</ul>
+		</div>
+		
+		<div class="ack_sect">
+		<h4>Developer</h4>
+		Dr Andrew Scott - University of South Wales & Western Carolina University
+		</div>
+		
+		<div class="ack_sect">
+		<h4>UX Focus Group Coordinator</h4>
+		Eilian Rodkerick - University of South Wales.	
+		</div>
+		
+		<div class="ack_sect">
+			<h4>Translation</h4>	
+			<p>Polski: Jan Pmierny-   Astronomia.pl</p>
+			<p>Espanol: Vanessa Stroud</p>
+			<p>Française: Eric Depagne, LCOGT</p>
+			<p>Deutsh: Reinheart Bruling & Vlaudia Heiss</p>
+			<p>Cymraeg: Amgueddfa Cymru/National Museum Wales</p>
+		</div>
+		
+		<div class="ack_sect">
+		<h4>Based on the Original science of </h4>
+		<p>Robert Marcus, H. Jay Melosh & Gareth Collins.</p>
+		</div>
+		
+		<div class="ack_sect">
+		<h4>Original Flash Version</h4>
+		<p>Edward Gomez & Jon Yardley.</p>
+		</div>
+		
+		<div class="ack_sect">
+		For further information on the D2E project, contact: <a style="color:#ffdd22;" href="mailto:info@faulkes-telescope.com">info@faulkes-telescope.com</a>
+		</div>
+		
+	</div>
+	
+	
+</div>
+	
+</body> 
+</html>

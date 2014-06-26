@@ -1,0 +1,140 @@
+<?xml version="1.0" ?>
+<root> 
+<btStart>Commencer</btStart>
+<lblTitle>Calculateur d'impact</lblTitle>
+<lblLanguage>Langue:</lblLanguage>
+
+<lblTranslation>Traduction:</lblTranslation>
+
+<cmdHelp>Aide</cmdHelp>
+<inputs>Paramèters initiaux</inputs>
+<result>Résultats du calcul</result>
+
+<lblAstDiam>Diamètre</lblAstDiam>
+<lblValue>Valeur:</lblValue>
+<lblWater>Eau</lblWater>
+<lblSedRock>Roche sédimentaire</lblSedRock>
+<lblIgRock>Roche éruptive</lblIgRock>
+<lblIce>Glace</lblIce>
+<lblPorRock>Roche poreuse</lblPorRock>
+<lblDensRock>Roche dense</lblDensRock>
+<lblIron>Fer</lblIron>
+
+<txtWaterDepth>Profondeur (m) :</txtWaterDepth>
+<btSubmit>Simuler</btSubmit>
+<lblObVelocity>Vitesse de l'objet :</lblObVelocity>
+
+<lblSelect>Faites votre choix ...</lblSelect>
+<lblSphinx>Le Sphynx (20m)</lblSphinx>
+<lblBen>Big Ben (96m)</lblBen>
+<lblEiffel>La tour Eiffel (324m)</lblEiffel>
+<lblEmpireSt>Empire State Building (449m)</lblEmpireSt>
+<lblCN>CN Tower (553m)</lblCN>
+<lblBurj>Burj Dubai (~800m)</lblBurj>
+
+<lblImpactVal>Détails de l'impact</lblImpactVal>
+<lblClickMap>Cliquez sur la carte pour placer le cratère...</lblClickMap>
+<cvsData>Voir les données</cvsData>
+<cvsSize>Diamètre du cratère</cvsSize>
+<cvsDepth>Profondeur du cratère</cvsDepth>
+<btBack>Recommencer</btBack>
+<btReset>Mise à zéro</btReset>
+<lbCrater>Le cratère est trop petit pour être visible</lbCrater>
+
+<htParameter>Paramètre</htParameter>
+<htValue>Valeur</htValue>
+
+<lblDistance>Distance de l'impact</lblDistance>
+<lblInVals>A Propos de votre Projectile</lblInVals>
+<pnlResults>Résultats du calcul</pnlResults>
+<lblCrDepth>Profondeur du cratére</lblCrDepth>
+<lblLandmark>Choisissez un repère :</lblLandmark>
+<lblImpEnergy>Énergie de l'impact</lblImpEnergy>
+<lblWhatImpactor>Qu'arrive-t-il à l'impacteur?</lblWhatImpactor>
+<lblFireball>Voit-on une boule de feu?</lblFireball>
+
+
+<lbKE>Énergie cinétique</lbKE>
+<lbImE>Énergie libérée à l'impact</lbImE>
+<lbImM>Masse</lbImM>
+<lbPjVel>Vitesse du projectile</lbPjVel>
+<lbPjAng>Angle d'impact</lbPjAng>
+<lbTgDens>Densité de la cible</lbTgDens>
+<lbPjDens>Densité du projectile</lbPjDens>
+<lbCrDiam>Diamètre du cratère</lbCrDiam>
+<lbCrDepth>Profondeur du cratère</lbCrDepth>
+<lbCrThickness>Épaisseur des ejecta</lbCrThickness>
+<lbAbBurst>Burst Altitude</lbAbBurst>
+<lbAbBreak>Altitude de dislocation</lbAbBreak>
+<lbAbVel>Vitesse de l'onde de choc</lbAbVel>
+<lbAbRichter>Magnitude de Richter</lbAbRichter>
+<lbAbAmpl>Amplitude de l'onde sonore</lbAbAmpl>
+<lbFbRad>Rayon</lbFbRad>
+<lbFbDuration>Maximum de radiation thermique à:</lbFbDuration>
+<lbFbExp>Intensité</lbFbExp>
+<lbFbPeaktime>Durée de l'irradiation</lbFbPeaktime>
+<lbNoData>Ne s'applique pas</lbNoData>
+<lbFreq>Quelle fréquence?</lbFreq>
+
+<lbAcknow>Remerciements</lbAcknow>
+<hide>Cacher</hide>
+<lbAuthor>Auteurs:</lbAuthor>
+<lbBased>D'après une idée de:</lbBased>
+
+<projectile1>Le projectile atteint la surface intact, à une vitesse de</projectile1>
+<projectile2>Énergie dissipée dans l'atmosphère:</projectile2>
+<projectile3>Le projectile commence à se briser à l'altitude de </projectile3>
+<projectile4>La vitesse du projectile après l'explosion est de</projectile4>
+<projectile5>L'énergie de l'explosion aérienne est de:</projectile5>
+<projectile6>De gros fragments frappent la surface de la terre et peuvent créer des impacts secondaires. Un traitement plus précis de l'entrée dans l'atmosphère est nécessaire pour estimer précisément la distribution taille-fréquence  des fragments de météorites et pour prédire le nombre et la taille des cratères formés.</projectile6>
+<projectile7>Le projectile atteint la surface de la terre en morceaux. Le projectile frappe la Terre à la vitesse </projectile7>
+
+<expos1>Les vêtements prennent feu</expos1>
+<expos2>Brûlures au troisième degré sur la majeure partie du corps</expos2>
+<expos3>Brûlures au second degré sur la majeure partie du corps</expos3>
+<expos4>Brûlures au premier degré sur la majeure partie du corps</expos4>
+<expos5>Le papier s'enflamme</expos5>
+<expos6>Le contreplaqué s'enflamme</expos6>
+<expos7>Les arbres à feuilles caduques s'enflamment</expos7>
+<expos8>L'herbe prend feu</expos8>
+
+<opress1>Les bâtiments de plusieurs étages en maçonnerie s'effondrent</opress1>
+<opress2>Les bâtiments de plusieurs étages en maçonnerie se fissurent et les cloisons intérieures s'effondrent</opress2>
+<opress3>Les constructions en bois s'effondrent</opress3>
+<opress4>Les cloisons intérieures en bois s'effondrent et les toits subissent de lourds dégâts</opress4>
+<opress5>Les bâtiments de plusieurs étages à structure en acier voient leur structure tordue et certains s'effondrent</opress5>
+<opress6>Les ponts de petite taille s'effondrent</opress6>
+<opress7>Les pont subissent des torsions importantes</opress7>
+<opress8>Les ponts en acier s'effondrent</opress8>
+<opress9>Les vitres se brisent</opress9>
+<opress10>Les voitures et camions sont déplacés et sérieusement abimés</opress10>
+<opress11>Les voitures et camions sont retournés et nécessitent de sérieuses réparations</opress11>
+<opress12>Pas de dégâts significatifs de l'onde de chaleur</opress12>
+<opress13>Jusqu'à 90% des arbres sont abattus, et les autres perdent leurs branches et leurs feuilles</opress13>
+<opress14>Jusqu'à 30 pourcent des arbres sont abattus. Certains des autres perdent leurs feuilles et leurs branches.</opress14>
+
+<incrater>Vous êtes à l'intérieur du cratère</incrater>
+
+<damage1>Dégâts à</damage1>
+<damage2>de l'impact</damage2>
+
+<!-- Newly Added -->
+<help_title>Aide à la Saisie</help_title>
+<help_text>Fourniture et sélectionnez une valeur pour chaque champ de saisie, puis appuyez sur soumettre.</help_text>
+<help_text2>Pour effacer les valeurs saisies appuyer sur reset.</help_text2>
+
+<input_error_title>Erreur de Saisie</input_error_title>
+<input_error_diam>Entrez diamètre du projectile</input_error_diam>
+<input_error_angle>Entrez angle du projectile</input_error_angle>
+
+<input_error_vel>Enter projectile velocity</input_error_vel>
+<input_error_pjd>Entrez la vitesse du projectile</input_error_pjd>
+<input_error_tgd>Entrez densité cible</input_error_tgd>
+<input_error_water>Entrez le niveau d'eau</input_error_water>
+
+<lbfbrad>Rayon Fireball</lbfbrad>
+
+<brz_warn>Votre navigateur internet ne supporte pas les fonctionnalités HTML5 nécessaires à Crater Impact.</brz_warn>
+</root>
+
+

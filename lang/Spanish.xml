@@ -1,0 +1,136 @@
+<?xml version="1.0" ?>
+<root>
+<btStart>Empezar</btStart>
+<lblTitle>Calculadora de Impactos</lblTitle>
+<lblLanguage>Idioma:</lblLanguage>
+<lblTranslation>Traducción:</lblTranslation>
+
+<cmdHelp>Ayuda</cmdHelp>
+<inputs>Parámetros de Inicio</inputs>
+<result>Resultados del Cálculo</result>
+
+<lblAstDiam>Diámetro del Asteroide</lblAstDiam>
+<lblValue>Valor:</lblValue>
+<lblWater>Agua</lblWater>
+<lblSedRock>Roca Sedimentaria</lblSedRock>
+<lblIgRock>Roca Ígnea</lblIgRock>
+<lblIce>Hielo</lblIce>
+<lblPorRock>Roca Porosa</lblPorRock>
+<lblDensRock>Roca Densa</lblDensRock>
+<lblIron>Hierro</lblIron>
+
+<txtWaterDepth>Profundidad del Agua (m) :</txtWaterDepth>
+<btSubmit>Calcular</btSubmit>					
+<lblObVelocity>Velocidad del Objeto</lblObVelocity>
+
+<lblSelect>Por Favor Selecciona...</lblSelect>
+<lblSphinx>Esfinge de Giza (20m)</lblSphinx>
+<lblBen>Big Ben (96m)</lblBen>
+<lblEiffel>Torre Eiffel (324m)</lblEiffel>
+<lblEmpireSt>Empire State Building (449m)</lblEmpireSt>
+<lblCN>CN Tower (553m)</lblCN>
+<lblBurj>Burj Dubai (~800m)</lblBurj>
+
+<lblImpactVal>Valores del Impacto</lblImpactVal>
+<lblClickMap>Haz clic en el mapa para colocar el cráter...</lblClickMap>
+<cvsData>Ver Data</cvsData>
+<cvsSize>Tamaño del Cráter</cvsSize>
+<cvsDepth>Profundidad del Cráter</cvsDepth>
+<btBack>Retroceder</btBack>				
+<btReset>Resetear</btReset>					
+<lbCrater>El cráter es demasiado pequeño ser visto</lbCrater>
+
+<htParameter>Parámetro</htParameter>
+<htValue>Valor</htValue>
+
+<lblDistance>Distancia del lugar de impacto</lblDistance>		
+<lblInVals>Acerca del Proyectil</lblInVals>
+<pnlResults>Resultados del Cálculo</pnlResults>
+<lblCrDepth>Profundidad Del Cráter</lblCrDepth>
+<lblLandmark>Selecciona Punto de Referencia</lblLandmark>			
+<lblImpEnergy>Energía del Impacto</lblImpEnergy>
+<lblWhatImpactor>¿Qué le sucede al impactor?</lblWhatImpactor>	
+<lblFireball>¿Se observa un bólido?</lblFireball>			
+
+
+<lbKE>Energía Cinética</lbKE>					
+<lbImE>Energía del Impacto </lbImE>
+<lbImM>Masa</lbImM>
+<lbPjVel>Velocidad del Proyectil</lbPjVel>
+<lbPjAng>Ángulo De la Trayectoria</lbPjAng>
+<lbTgDens>Densidad del área impactada</lbTgDens>				
+<lbPjDens>Densidad del Proyectil</lbPjDens>
+<lbCrDiam>Anchura del Cráter</lbCrDiam>
+<lbCrDepth>Profundidad del Cráter</lbCrDepth>
+<lbCrThickness>Grosor del material expulsado</lbCrThickness>			
+<lbAbBurst>Altitud de la Explosión</lbAbBurst>
+<lbAbBreak>Altitud de la Desintegración</lbAbBreak>
+<lbAbVel>Velocidad del Viento</lbAbVel>
+<lbAbRichter>Magnitud Escala Richter</lbAbRichter>			
+<lbAbAmpl>Amplitud del pulso de sonido </lbAbAmpl>			
+<lbFbRad>Radio</lbFbRad>
+<lbFbDuration>Radiación termal máxima en</lbFbDuration>
+<lbFbExp>Exposición</lbFbExp>
+<lbFbPeaktime>Duración de la irradiación</lbFbPeaktime>
+<lbNoData>No aplicable</lbNoData>
+<lbFreq>¿Con qué frecuencia?</lbFreq>					
+
+<lbAcknow>Reconocimientos</lbAcknow>
+<hide>Esconder</hide>
+<lbAuthor>Autor:</lbAuthor>
+<lbBased>Basado en el código original escrito por:</lbBased>	
+
+<projectile1>El proyectil aterriza intacto, con una velocidad de</projectile1>
+<projectile2>La energía perdida en la atmósfera es </projectile2>
+<projectile3>El proyectil empieza a desintegrarse a una altura de </projectile3>
+<projectile4>La velocidad de los fragmentos del proyectil después de la explosión es de</projectile4>
+<projectile5>La energía de la explosión en el aire es </projectile5>	
+<projectile6>Los fragmentos grandes colisionan contra la superficie y pueden crear un campo cubierto de cráteres. Un estudio más cuidadoso de la entrada a la atmósfera es necesario para estimar con precisión la distribución del tamaño y frecuencia de los fragmentos del meteoro y así predecir el número y el tamaño de los cráteres formados.</projectile6>
+<projectile7>El proyectil llega a la tierra ya quebrado. La masa del proyectil colisiona la superficie con una velocidad de</projectile7>
+
+<expos1>La ropa se enciende</expos1>
+<expos2>Gran parte del cuerpo sufre quemaduras de tercer grado</expos2>
+<expos3>Gran parte del cuerpo sufre quemaduras de segundo grado</expos3>
+<expos4>Gran parte del cuerpo sufre de quemaduras de primer grado</expos4>
+<expos5>El periódico se enciende</expos5>
+<expos6>El chapeado se inciende</expos6>
+<expos7>Los árboles deciduos se encienden</expos7>
+<expos8>El pasto se enciende</expos8>
+
+<opress1>Los edificios de varios pisos soportados por muros maestros colapsarán</opress1>
+<opress2>Los edificios de varios pisos soportados por muros maestros se agrietarán severamente y las particiones interiores se derrumbarán</opress2>
+<opress3>Los edificios con marcos de madera se derrumbarán casi totalmente</opress3>
+<opress4> Las particiones interiores de los edificios con marcos de madera serán  derrumbadas. El techo se dañará gravemente.</opress4>
+<opress5>Los edificios de multiples pisos de oficinas con marcos de acero sufrirían distorsiónes extremas en los marcos, los cuales estarían propensos a derrumbarse en cualquier momento</opress5>
+<opress6>Los puentes pequeños se derrumbarán</opress6>
+<opress7>Los puentes sufrirán distorsiones substanciales en las sus estructuras de soporte</opress7>
+<opress8>Los puentes con marcos de acero se derrumbarán</opress8>
+<opress9>Las ventanas de vidrio se romperán</opress9>
+<opress10>Los coches y los camiones serán desplazados y torcidos fuertemente y requerirán ser reconstruidos en gran parte antes de ser utilizados</opress10>
+<opress11>Los coches y camiones serán revolcados y desplazados, requeriendo reparaciones importantes</opress11>
+<opress12> Ningún daño significativo causado por la onda de la ráfaga atmosférica </opress12>
+<opress13>Hasta un 90 por ciento de árboles serán derribados; el resto será despojado de ramas y hojas</opress13>
+<opress14>Cerca de un 30 por ciento de los árboles serán derribados; el resto tendrán  algunas ramas y hojas desprendidas</opress14>
+
+<incrater>Estás parado dentro del cráter</incrater>
+
+<damage1>Daños a </damage1>
+<damage2>del area de desplome</damage2>
+
+<!--new additions-->
+<help_title>Ayuda</help_title>
+<help_text>Suministro y seleccione un valor para cada campo de entrada y pulse enviar.</help_text>
+<help_text2>Para borrar los valores introducidos prensa restablecimiento.</help_text2>
+
+<input_error_title>Error de Entrada</input_error_title>
+<input_error_diam>Entrez diamètre du projectile</input_error_diam>
+<input_error_angle>Introduzca el ángulo del proyectil</input_error_angle>
+<input_error_vel>Introduzca velocidad del proyectil</input_error_vel>
+<input_error_pjd>Introduzca la densidad del proyectil</input_error_pjd>
+<input_error_tgd>Introduzca densidad objetivo</input_error_tgd>
+<input_error_water>Entrar en el nivel del agua</input_error_water>
+
+<lbfbrad>Radio de la bola de fuego</lbfbrad>
+
+<brz_warn>Su navegador de Internet no soporta las características de HTML5 necesarios para impacto de un cráter.</brz_warn>
+</root>
